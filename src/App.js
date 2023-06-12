@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Content from "./Content";
 import Footer from "./Footer";
-
+import './App.css'
 function App() {
 
     return ( 
@@ -15,4 +15,5 @@ function App() {
     
   }
   export default App;
+  
   
