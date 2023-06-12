@@ -1,18 +1,17 @@
 import React from 'react'
 
-const Content = () => {
-    function handleNamechange(){
-        const numbers = [231,232,123,121,123];
-        const int = Math.floor(Math.random()*5);
-        return numbers[int]
-      }
-      
-        return ( 
-          <main>
-            <p>Your Token Number is {handleNamechange()}</p>
-            </main>
-        );
-      }
-      
+const Footer = () => {
+    const year= new Date();
 
-export default Content
+
+// const hloo = [-2,3,-1,0,1,2]
+// const vanga = hloo.filter((soo) => soo<=0).map((soo) =>({age:soo}))
+// console.log(vanga)
+
+
+  return (
+    <footer>Footer &copy; {year.getFullYear()}</footer>
+  )
+}
+
+export default Footer
