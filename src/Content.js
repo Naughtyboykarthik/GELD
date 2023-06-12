@@ -8,7 +8,9 @@ const Content = () => {
       }
       
         return ( 
+          <main>
             <p>Your Token Number is {handleNamechange()}</p>
+            </main>
         );
       }
       
